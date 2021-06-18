@@ -1,8 +1,12 @@
+import MenuDT from "./menuDT/MenuDT";
+
 const Desktop = () => {
   return (
     <div id="desktop">
-        Desktop
-        
+      <div className="menu">
+        <MenuDT />
+      </div>
+      <div></div>
     </div>
   );
 };
